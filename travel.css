@@ -1,0 +1,574 @@
+
+body{
+    position: relative;
+}
+.navbar-nav{
+    text-align:center;
+  }
+
+
+  .navbar a span {
+  color: #ffa500;
+}
+.navbar-light .navbar-brand {
+  color: rgba(0,0,0,.9);
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  border-radius: 3px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  border-radius: 3px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  background-color: #ffa500;
+}
+
+@media(width >= 576px){
+  .navbar-brand{
+      margin-left: 30px;
+
+  }
+
+  .navbar-toggler{
+      margin-right: 30px;
+  }
+  
+} 
+/* ----------------------navbar-end------------------- */
+
+/* ----------------------jumbtron------------------- */
+#jumbo{
+    background-image: url("./image/tr_1.jpeg");
+    background-size:100% 100% ;
+    /* height: 88vh; */
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+}
+
+
+#btnhome {
+    padding: 10px;
+    background-color: #ffa500;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    transition: 0.5s;
+    color: black;
+    width: 150px;
+}
+
+#btnhome:hover {
+
+    width: 160px;
+    background-color: black;
+    color: white;
+}
+
+#jumbo .container h5 {
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 0px 2px 2px black;
+    color: red;
+}
+#jumbo .container h5 span {
+  
+    color: rgb(24, 13, 233);
+}
+
+#jumbo .container h2 {
+    font-weight: 600;
+    font-size: 60px;
+    text-shadow: 0px 2px 2px black;
+    color: rgb(51, 255, 0);
+}
+#jumbo p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* ---------------------jumbotron end-------------------- */
+/* ---------------------book-------------------- */
+#book{
+    
+    margin-top: 0px;
+}
+#book .row h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+     margin-top: 80px;
+    margin-bottom: 30px;
+}
+#book .row h2 span{
+    color: #ffa500;
+}
+
+#book .row .col-lg-6 img{
+    height: 80%;
+    width: 100%;
+}
+#book .row .col-lg-6 p{
+   text-align: center;
+   font-size: 17px;
+   font-weight: 600;
+   padding-top: 20px;
+}
+.input-group input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+    text-indent: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#btnbook {
+    background-color: #ffa500;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    transition: 0.5s;
+    width: 120px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+
+#btnbook:hover {
+    width: 130px;
+    background-color: #090909;
+    color: white;
+} #marg{
+    margin-top: -18px;
+}
+
+/* --------------------------package------------------- */
+
+#package h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    margin-top: 80px; 
+    margin-bottom: 30px;
+}
+#package h2 span{
+   color: #ffa500;
+}
+#package .row{
+    text-align: center;
+}
+#package .row .col-lg-4 img{
+    height: 60%;
+    width: 100%;
+}
+#package .row .col-lg-6 img{
+    height: 60%;
+    width: 100%;
+}
+#package .row .col-lg-4 img:hover{
+   box-shadow: 0px 0px 10px black;
+    transition: 0.60s;
+}
+#package .row .col-lg-4 h4{
+    font-size: 20px;
+    color: red;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+    margin-top: 10px;
+}
+#package .row .col-lg-6 h4{
+    font-size: 20px;
+    color: red;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+    margin-top: 10px;
+}
+#package .row .col-lg-4 h5{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+    text-shadow: 0px 1px 1px black;
+   
+}
+#package .row .col-lg-6 h5{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+    text-shadow: 0px 1px 1px black;
+   
+}
+#package .row .col-lg-4 h5 span{
+  
+    color: rgb(17, 0, 255);
+    
+   
+}
+#package .row .col-lg-6 h5 span{
+  
+    color: rgb(17, 0, 255);
+    
+   
+}
+#package .row .col-lg-4 a{
+    background-color: #ffa500;
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 100px;
+    transition: 0.5s;
+    width: 160px;
+    letter-spacing: 1px;
+   
+}
+#package .row .col-lg-6 a{
+    background-color: #ffa500;
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    transition: 0.5s;
+    width: 160px;
+    letter-spacing: 1px;
+   
+}
+#package .row .col-lg-4 a:hover{
+    width: 170px;
+    background-color: #090909;
+    color: white;
+}
+#package .row .col-lg-6 a:hover{
+    width: 170px;
+    background-color: #090909;
+    color: white;
+}
+
+
+/* -----------------------services-------------------- */
+#services h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    margin-top: 80px; 
+    margin-bottom: 30px;
+}
+#services h2 span{
+   color: #ffa500;
+}
+#services .row{
+    text-align: center;
+}
+
+#services .fa {
+    font-size: 80px;
+    color: orange;
+}
+
+#services .row h4{
+
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 1px red;
+}
+#services .row .col-lg-4 p{
+    font-size: 17px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+    color: rgb(27, 3, 3);
+}
+#services .row .col-lg-6 p{
+    font-size: 17px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+    color: rgb(27, 3, 3);
+}
+
+/* ---------------------------gallery-------------------- */
+#gallery .row h2{
+
+        font-size: 35px;
+        font-weight: 500;
+        text-shadow: 0px 0px 1px black;
+        text-align: center;
+        margin-top: 80px; 
+        margin-bottom: 30px;
+
+   
+}
+#gallery .row h2 span{
+    color: #ffa500;
+ }
+
+ #gallery .row .col-lg-4 img{
+     height: 100%;
+     width: 100%;
+     padding: 10px;
+ }
+
+ #gallery .row .col-lg-6 img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+#gallery .row .col-lg-7 img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+#gallery .row .col-lg-5 img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* ------------------------------about-------------------- */
+
+#about .row h2{
+
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    margin-top: 80px; 
+    margin-bottom: 30px;
+
+
+}
+#about .row h2 span{
+color: #ffa500;
+}
+
+#about .row .col-lg-7 img{
+    height: 100%;
+    width: 100%;
+
+}
+#about .row .col-lg-5 h3{
+    font-weight: 600;
+    font-size: 35px;
+    color: red;
+    text-shadow: 0px 1px 1px black;   
+
+}
+#about .row .col-lg-5 p{
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 0px 0px 1px black; */
+
+}
+#about .row .col-lg-5 a{
+   
+    background-color: #ffa500;
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    transition: 0.5s;
+    width: 140px;
+    letter-spacing: 1px;
+}
+
+#about .row .col-lg-5 a:hover{
+    width: 150px;
+    background-color: #090909;
+    color: white;
+}
+
+/* ---------------------------footer------------- */
+
+#footer h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+   
+    margin-top: 30px; 
+    margin-bottom: 15px;
+}
+
+#footer h2 span{
+    color: #ffa500;
+}
+#footer{
+    text-align: center;
+}
+
+#footer .row .a .fa{
+    font-size: 20px;
+    color: white;
+    background-color:black;
+    padding: 10px;
+}
+#footer .row .a .fa:hover{
+   
+    background-color:#ffa500;
+    color: green;
+  
+}
+#footer .row h5{
+
+    font-size:21px;
+    color: rgb(255, 7, 7);
+     margin-top:10px ; 
+     font-weight: 500;
+     text-shadow: 0px 0px 1px black; 
+}
+#footer .row h5 span{
+   
+    color: rgb(7, 7, 255);
+    
+}
+
+#footer .row h6{
+
+    font-size:20px;
+    color:rgb(6, 126, 6);
+     margin-top:10px ;
+     margin-bottom: 17px; 
+     font-weight: 500;
+     text-shadow: 0px 1px 1px black; 
+    
+
+}
+/* ---------------------resopnsive-------------------------- */
+@media (width>991px){
+    .btn-info{
+        margin-bottom: 50px;
+    }
+}
+
+@media (width>=768px) and (width<991px){
+  
+    #jumbo .container h5 {
+        font-weight:600;
+        font-size: 35px;
+        letter-spacing: 2px;
+       
+    }
+    #jumbo .container h2 {
+        font-weight: 600;
+        font-size: 45px;
+        letter-spacing: 2px;
+      
+    }
+   
+    #btnhome{
+        margin-top: 15px;
+    }
+    #marg{
+        margin-top: 10px;
+    }
+    #about .row .col-lg-5 h3 {
+        font-size: 32px;
+        font-weight: 550;
+        text-align: center;
+    }
+    #about .row .col-lg-5 {
+        margin-top: 25px;
+    }
+}
+@media (width<768px) and (width>576px){
+  
+    #jumbo .container h5 {
+        font-weight:650;
+        font-size: 30px;
+        letter-spacing: 2px;
+       
+    }
+    #jumbo .container h2 {
+        font-weight: 650;
+        font-size: 40px;
+        letter-spacing: 2px;
+      
+    }
+   
+    #btnhome{
+        margin-top: 15px;
+    }
+   
+     #marg{
+        margin-top: 15px;
+    }
+  .btn-info{
+    margin-bottom: 140px;
+  }
+ 
+}
+@media (max-width:767px){
+    #about .row .col-lg-5 {
+        margin-top: 25px;
+    }
+    #about .row .col-lg-5 h3 {
+        font-size: 27px;
+        font-weight: 500;
+        
+    }
+
+    #footer h2{
+        margin-top: 88px;
+    }
+}
+
+@media (width<=576px){
+  
+ 
+    #jumbo .container h5 {
+        font-weight:500;
+        font-size: 25px;
+        letter-spacing: 1px;
+       
+    }
+    #jumbo .container h2 {
+        font-weight: 500;
+        font-size: 35px;
+        letter-spacing: 1px;
+      
+    }
+    #btnhome{
+        margin-top: 15px;
+    }
+    #marg{
+        margin-top: 40px;
+    }
+    #book .row .col-lg-6 p{
+       
+        padding-top: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 450;
+     }
+     .btn-info{
+        margin-bottom: 210px;
+      }
+     
+}
